@@ -1,6 +1,6 @@
 calibration_vls = []
 
-file = open('input_file.txt','r')
+file = open('input_file1.txt','r')
 file_obj = file.readlines()
 for line in file_obj:
   calibration_vls.append(line.strip())
